@@ -1,5 +1,7 @@
 <?php
 
+use Twig\Extension\AbstractExtension;
+
 /**
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -11,7 +13,7 @@
  * @package Twig-Extension-Number
  * @subpackage Twig-extensions
  */
-class Twig_Extensions_Extension_Number extends Twig_Extension
+class Twig_Extensions_Extension_Number extends AbstractExtension
 {
     const DEFAULT_DECIMALS = 2;
     const UNITY_GRAM = 'g';
